@@ -25,7 +25,7 @@ tfswitch #
 ```bash
 
 # clone the repo and cd in
-git clone https://gitlab.com/google-cloud-ce/googlers/noahmercado/terraform-cohort/intro-to-terraform.git
+git clone https://github.com/noahmercado/intro-to-terraform.git
 
 cd intro-to-terraform
 
