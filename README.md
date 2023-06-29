@@ -5,20 +5,27 @@ This repository contains starter code for Session #1 - Intro to Terraform of the
 - `terraform ~> 1.5`
 - `Google Cloud SDK ~> 434.0.0`
 
-## How to install
+## Prereqs
+- Provision a GCP project to deploy resources into
+- If you want to use VS Code + Devcontainer as your IDE
+  - Follow instructuions [here to setup VS Code + Devcontainer ](https://code.visualstudio.com/docs/devcontainers/tutorial)
+- If you're using your local machine + VS Code as your IDE, ensure you have the correct version of Terraform installed (see `How to Install`)
+- If you're using Cloud Shell as your IDE, Terraform comes preinstalled
+
+## How to install on local machine
 #### macOS
 ``` bash
 brew install warrensbox/tap/tfswitch  
 ```
   
-#### Linux (Cloud Shell)
+#### Linux
 ``` bash
 curl -L https://raw.githubusercontent.com/warrensbox/terraform-switcher/release/install.sh | bash
 ```
 
 ### Download and symlink Terraform binary
 ``` bash
-tfswitch #
+tfswitch # Select the Terraform version you want to install
 ```
 
 ## How to deploy
